@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Spectare
+//  Spectare - Multi Media Center
 //
 //  Created by Martin Schingenga on 11-09-13.
 //  Copyright (c) 2013 Martin Schingenga. All rights reserved.
