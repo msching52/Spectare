@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		25C0956817E5AC8D002B6429 /* SpectareIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956717E5AC8D002B6429 /* SpectareIcon.icns */; };
+		25C0956A17E5AD54002B6429 /* StartImageFender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956917E5AD54002B6429 /* StartImageFender.jpg */; };
+		25C0956C17E5AFAA002B6429 /* SettingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956B17E5AFAA002B6429 /* SettingButton.png */; };
+		25C0956E17E5AFB4002B6429 /* QuitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956D17E5AFB4002B6429 /* QuitButton.png */; };
+		25C0957017E5AFBD002B6429 /* LibraryButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956F17E5AFBD002B6429 /* LibraryButton.png */; };
+		25C0957217E5AFC5002B6429 /* VideoButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0957117E5AFC5002B6429 /* VideoButton.png */; };
+		25C0957417E5AFCC002B6429 /* AudioButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0957317E5AFCC002B6429 /* AudioButton.png */; };
 		25CC69E117E08FDE008ACE3C /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25CC69E017E08FDE008ACE3C /* Cocoa.framework */; };
 		25CC69EB17E08FDE008ACE3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 25CC69E917E08FDE008ACE3C /* InfoPlist.strings */; };
 		25CC69ED17E08FDE008ACE3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CC69EC17E08FDE008ACE3C /* main.m */; };
@@ -17,6 +24,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		25C0956717E5AC8D002B6429 /* SpectareIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SpectareIcon.icns; sourceTree = "<group>"; };
+		25C0956917E5AD54002B6429 /* StartImageFender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StartImageFender.jpg; sourceTree = "<group>"; };
+		25C0956B17E5AFAA002B6429 /* SettingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingButton.png; sourceTree = "<group>"; };
+		25C0956D17E5AFB4002B6429 /* QuitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = QuitButton.png; sourceTree = "<group>"; };
+		25C0956F17E5AFBD002B6429 /* LibraryButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LibraryButton.png; sourceTree = "<group>"; };
+		25C0957117E5AFC5002B6429 /* VideoButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = VideoButton.png; sourceTree = "<group>"; };
+		25C0957317E5AFCC002B6429 /* AudioButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = AudioButton.png; sourceTree = "<group>"; };
 		25CC69DD17E08FDE008ACE3C /* Spectare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Spectare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		25CC69E017E08FDE008ACE3C /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		25CC69E317E08FDE008ACE3C /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -48,6 +62,7 @@
 		25CC69D417E08FDE008ACE3C = {
 			isa = PBXGroup;
 			children = (
+				25C0956717E5AC8D002B6429 /* SpectareIcon.icns */,
 				25CC69E617E08FDE008ACE3C /* Spectare */,
 				25CC69DF17E08FDE008ACE3C /* Frameworks */,
 				25CC69DE17E08FDE008ACE3C /* Products */,
@@ -96,6 +111,12 @@
 		25CC69E717E08FDE008ACE3C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				25C0956917E5AD54002B6429 /* StartImageFender.jpg */,
+				25C0956B17E5AFAA002B6429 /* SettingButton.png */,
+				25C0956D17E5AFB4002B6429 /* QuitButton.png */,
+				25C0956F17E5AFBD002B6429 /* LibraryButton.png */,
+				25C0957117E5AFC5002B6429 /* VideoButton.png */,
+				25C0957317E5AFCC002B6429 /* AudioButton.png */,
 				25CC69E817E08FDE008ACE3C /* Spectare-Info.plist */,
 				25CC69E917E08FDE008ACE3C /* InfoPlist.strings */,
 				25CC69EC17E08FDE008ACE3C /* main.m */,
@@ -159,6 +180,13 @@
 				25CC69EB17E08FDE008ACE3C /* InfoPlist.strings in Resources */,
 				25CC69F117E08FDE008ACE3C /* Credits.rtf in Resources */,
 				25CC69F717E08FDF008ACE3C /* MainMenu.xib in Resources */,
+				25C0956817E5AC8D002B6429 /* SpectareIcon.icns in Resources */,
+				25C0956A17E5AD54002B6429 /* StartImageFender.jpg in Resources */,
+				25C0956C17E5AFAA002B6429 /* SettingButton.png in Resources */,
+				25C0956E17E5AFB4002B6429 /* QuitButton.png in Resources */,
+				25C0957017E5AFBD002B6429 /* LibraryButton.png in Resources */,
+				25C0957217E5AFC5002B6429 /* VideoButton.png in Resources */,
+				25C0957417E5AFCC002B6429 /* AudioButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +335,7 @@
 				25CC69FF17E08FDF008ACE3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
