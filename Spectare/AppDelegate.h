@@ -7,8 +7,13 @@
 //
 
 #import <Cocoa/Cocoa.h>
+#import "ManagingViewController.h"
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+
+@interface AppDelegate : NSObject <NSApplicationDelegate> {
+
+    NSMutableArray *viewControllers;
+}
 
 @property (assign) IBOutlet NSWindow *window;
 
@@ -17,5 +22,10 @@
 @property (readonly, strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
 - (IBAction)saveAction:(id)sender;
+- (IBAction)changeViewController:(id)sender;
+
+- (void) displayViewController:(ManagingViewController *)vc;
+
+@property (weak) IBOutlet NSBox *box;
 
 @end

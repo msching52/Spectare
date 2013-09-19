@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2553ADD717EAEF8E00F8C7AA /* ManagingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2553ADD617EAEF8E00F8C7AA /* ManagingViewController.m */; };
+		2553ADDA17EAF29E00F8C7AA /* AudioMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2553ADD917EAF29E00F8C7AA /* AudioMainController.m */; };
+		2553ADDC17EAF2CD00F8C7AA /* AudioMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2553ADDB17EAF2CD00F8C7AA /* AudioMainView.xib */; };
 		25C0956817E5AC8D002B6429 /* SpectareIcon.icns in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956717E5AC8D002B6429 /* SpectareIcon.icns */; };
 		25C0956A17E5AD54002B6429 /* StartImageFender.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956917E5AD54002B6429 /* StartImageFender.jpg */; };
 		25C0956C17E5AFAA002B6429 /* SettingButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 25C0956B17E5AFAA002B6429 /* SettingButton.png */; };
@@ -21,9 +24,16 @@
 		25CC69F417E08FDE008ACE3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 25CC69F317E08FDE008ACE3C /* AppDelegate.m */; };
 		25CC69F717E08FDF008ACE3C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25CC69F517E08FDF008ACE3C /* MainMenu.xib */; };
 		25CC69FA17E08FDF008ACE3C /* Spectare.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 25CC69F817E08FDF008ACE3C /* Spectare.xcdatamodeld */; };
+		25D2808717EB119C0058982F /* SpectareMainController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25D2808617EB119C0058982F /* SpectareMainController.m */; };
+		25D2808917EB11FF0058982F /* SpectareMainView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25D2808817EB11FF0058982F /* SpectareMainView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2553ADD517EAEF8E00F8C7AA /* ManagingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManagingViewController.h; sourceTree = "<group>"; };
+		2553ADD617EAEF8E00F8C7AA /* ManagingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManagingViewController.m; sourceTree = "<group>"; };
+		2553ADD817EAF29E00F8C7AA /* AudioMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioMainController.h; sourceTree = "<group>"; };
+		2553ADD917EAF29E00F8C7AA /* AudioMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioMainController.m; sourceTree = "<group>"; };
+		2553ADDB17EAF2CD00F8C7AA /* AudioMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AudioMainView.xib; sourceTree = "<group>"; };
 		25C0956717E5AC8D002B6429 /* SpectareIcon.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; path = SpectareIcon.icns; sourceTree = "<group>"; };
 		25C0956917E5AD54002B6429 /* StartImageFender.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = StartImageFender.jpg; sourceTree = "<group>"; };
 		25C0956B17E5AFAA002B6429 /* SettingButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SettingButton.png; sourceTree = "<group>"; };
@@ -45,6 +55,9 @@
 		25CC69F317E08FDE008ACE3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		25CC69F617E08FDF008ACE3C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		25CC69F917E08FDF008ACE3C /* Spectare.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Spectare.xcdatamodel; sourceTree = "<group>"; };
+		25D2808517EB119C0058982F /* SpectareMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpectareMainController.h; sourceTree = "<group>"; };
+		25D2808617EB119C0058982F /* SpectareMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpectareMainController.m; sourceTree = "<group>"; };
+		25D2808817EB11FF0058982F /* SpectareMainView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpectareMainView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +112,17 @@
 		25CC69E617E08FDE008ACE3C /* Spectare */ = {
 			isa = PBXGroup;
 			children = (
+				2553ADD517EAEF8E00F8C7AA /* ManagingViewController.h */,
+				2553ADD617EAEF8E00F8C7AA /* ManagingViewController.m */,
 				25CC69F217E08FDE008ACE3C /* AppDelegate.h */,
 				25CC69F317E08FDE008ACE3C /* AppDelegate.m */,
 				25CC69F517E08FDF008ACE3C /* MainMenu.xib */,
+				2553ADD817EAF29E00F8C7AA /* AudioMainController.h */,
+				2553ADD917EAF29E00F8C7AA /* AudioMainController.m */,
+				2553ADDB17EAF2CD00F8C7AA /* AudioMainView.xib */,
+				25D2808517EB119C0058982F /* SpectareMainController.h */,
+				25D2808617EB119C0058982F /* SpectareMainController.m */,
+				25D2808817EB11FF0058982F /* SpectareMainView.xib */,
 				25CC69F817E08FDF008ACE3C /* Spectare.xcdatamodeld */,
 				25CC69E717E08FDE008ACE3C /* Supporting Files */,
 			);
@@ -180,10 +201,12 @@
 				25CC69EB17E08FDE008ACE3C /* InfoPlist.strings in Resources */,
 				25CC69F117E08FDE008ACE3C /* Credits.rtf in Resources */,
 				25CC69F717E08FDF008ACE3C /* MainMenu.xib in Resources */,
+				2553ADDC17EAF2CD00F8C7AA /* AudioMainView.xib in Resources */,
 				25C0956817E5AC8D002B6429 /* SpectareIcon.icns in Resources */,
 				25C0956A17E5AD54002B6429 /* StartImageFender.jpg in Resources */,
 				25C0956C17E5AFAA002B6429 /* SettingButton.png in Resources */,
 				25C0956E17E5AFB4002B6429 /* QuitButton.png in Resources */,
+				25D2808917EB11FF0058982F /* SpectareMainView.xib in Resources */,
 				25C0957017E5AFBD002B6429 /* LibraryButton.png in Resources */,
 				25C0957217E5AFC5002B6429 /* VideoButton.png in Resources */,
 				25C0957417E5AFCC002B6429 /* AudioButton.png in Resources */,
@@ -197,8 +220,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2553ADD717EAEF8E00F8C7AA /* ManagingViewController.m in Sources */,
+				25D2808717EB119C0058982F /* SpectareMainController.m in Sources */,
 				25CC69ED17E08FDE008ACE3C /* main.m in Sources */,
 				25CC69F417E08FDE008ACE3C /* AppDelegate.m in Sources */,
+				2553ADDA17EAF29E00F8C7AA /* AudioMainController.m in Sources */,
 				25CC69FA17E08FDF008ACE3C /* Spectare.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

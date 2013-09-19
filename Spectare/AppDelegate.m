@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AudioMainController.h"
+#import "SpectareMainController.h"
 
 @implementation AppDelegate
 
@@ -14,10 +16,61 @@
 @synthesize managedObjectModel = _managedObjectModel;
 @synthesize managedObjectContext = _managedObjectContext;
 
+
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
     // Insert code here to initialize your application
+    if (self) {
+        NSLog(@"Starting View Control");
+        
+        // Define array with view controller instances, for each view
+        
+        viewControllers = [[NSMutableArray alloc] init];
+        
+        ManagingViewController *vc;
+        
+        // Main Screen Spectare
+        
+        vc = [[SpectareMainController alloc] init];
+        [vc setManagedObjectContext:[self managedObjectContext]];
+        [viewControllers addObject:vc];
+        
+        // Main Screen Audio
+        vc = [[AudioMainController alloc] init];
+        [vc setManagedObjectContext:[self managedObjectContext]];
+        [viewControllers addObject:vc];
+        
+ 
+        
+        
+        
+    }
+    
+    // Put begin view in the box
+    
+    [self displayViewController:[viewControllers objectAtIndex:0]];
+    
 }
+
+
+// Method that swaps in a view
+
+- (void) displayViewController:(ManagingViewController *)vc {
+    
+    // Try to stop editing
+    NSWindow *w = [_box window];
+    BOOL ended = [w makeFirstResponder:w];
+    if (!ended) {
+        NSBeep();
+        return;
+    }
+    
+    // Put the view in the box
+    
+    NSView *v = [vc view];
+    [_box setContentView:v];
+}
+
 
 // Returns the directory the application uses to store the Core Data store file. This code uses a directory named "org.schingenga.Spectare" in the user's Application Support directory.
 - (NSURL *)applicationFilesDirectory
